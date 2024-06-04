@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-image: url("/media/bg2.png") !important;
+    background-image: url("./media/bg2.png") !important;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
