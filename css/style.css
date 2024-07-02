@@ -29,7 +29,7 @@ body {
 }
 
 .playboard {
-    width: 596.1px; /* Adjusted to fit the screen better */
+    width: 596.1px;
     height: 596.1px;
     border: 2px solid black;
     box-shadow: 5px rgb(0, 0, 0);
@@ -43,7 +43,6 @@ body {
 #button-container {
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: space-between;
     width: 380px;
@@ -53,8 +52,6 @@ body {
     padding-top: 10px;
     border-radius: 5%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    
-    /* margin: 10px; */
 }
 
 
@@ -121,7 +118,7 @@ p{
     font-size: 20px;
 }
 #redmoves::-webkit-scrollbar {
-    width: 4px;  /* Very thin scrollbar */
+    width: 4px;
 }
 
 #redmoves::-webkit-scrollbar-track {
@@ -151,7 +148,7 @@ p{
 }
 
 #bluemoves::-webkit-scrollbar {
-    width: 4px;  /* Very thin scrollbar */
+    width: 4px;
 }
 
 #bluemoves::-webkit-scrollbar-track {
@@ -323,7 +320,6 @@ button:hover {
   .move {
     display: flex;
     align-items: center;
-    /* justify-content: left; */
     margin-top: 10px;
     font-size: 13px;
     
@@ -334,7 +330,6 @@ button:hover {
     margin-right: 10px;
   }
   .move-details {
-    /* flex-grow: 1; */
     text-align: center;
   }
 
@@ -357,9 +352,7 @@ button:hover {
 
 @media screen and (max-width:431px)
 {   
-   /* body{
-    overflow: hidden;
-   } */
+   
    #playboard-container
    {
     width:400.2px;
