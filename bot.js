@@ -181,7 +181,7 @@ function movePiece(piece, targetBox) {
     targetBox.classList.add(piecetype, playerClass, 'piece');
 
     piece.innerHTML = "";
-    piece.className = "box"; // Reset the original box
+    piece.className = "box";
     let redcanon = document.querySelector(".red.canon");
     let redcanonrow = redcanon.getAttribute("rownumberid");
     let redcanoncolumn = redcanon.getAttribute("columnnumberid");
